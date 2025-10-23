@@ -5,7 +5,7 @@
     chosen {
         zmk,physical-layout = &physical_layout0;
     };
-    
+
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
@@ -76,4 +76,4 @@
             , <&key_physical_attrs 100 100  600  525       0     0     0>
             ;
     };
-}
+};
