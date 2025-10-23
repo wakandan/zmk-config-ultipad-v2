@@ -66,7 +66,7 @@
             display-name = "fn";
             bindings = <
 &out OUT_TOG     &bt BT_PRV       &bt BT_NXT       &trans
-&trans           &trans           &trans           &trans           &rgb_ug RGB_HUD
+&trans           &trans           &trans           &studio_unlock   &rgb_ug RGB_HUD
 &rgb_ug RGB_SPI  &kp UP_ARROW     &trans
 &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW  &rgb_ug RGB_EFF
 &trans           &trans           &rgb_ug RGB_BRD
