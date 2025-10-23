@@ -76,4 +76,12 @@
             , <&key_physical_attrs 100 100  600  525       0     0     0>
             ;
     };
+
+    middle_left_encoder: encoder_1: encoder_1 {
+        compatible = "alps,ec11";
+        a-gpios = <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "disabled";
+    };
 };
