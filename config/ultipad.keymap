@@ -14,8 +14,6 @@
 
 &middle_left_encoder { status = "okay"; };
 
-&top_right_encoder { status = "okay"; };
-
 / {
     combos {
         compatible = "zmk,combos";
