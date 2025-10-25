@@ -13,6 +13,8 @@
 
 &top_encoder { status = "okay"; };
 
+&mid_encoder { status = "okay"; };
+
 / {
     combos {
         compatible = "zmk,combos";
