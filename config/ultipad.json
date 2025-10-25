@@ -190,5 +190,21 @@
         }
       ]
     }
-  }
+  },
+  "sensors": [
+    {
+      "ref": "top_encoder",
+      "name": "top_encoder",
+      "identifier": "top_encoder",
+      "compatible": "alps,ec11",
+      "label": "TOP_ENCODER"
+    },
+    {
+      "ref": "mid_encoder",
+      "name": "mid_encoder",
+      "identifier": "mid_encoder",
+      "compatible": "alps,ec11",
+      "label": "MID_ENCODER"
+    }
+  ]
 }
