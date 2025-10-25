@@ -11,7 +11,7 @@
 
 #define TIMEOUT 300
 
-&middle_left_encoder { status = "okay"; };
+&top_encoder { status = "okay"; };
 
 / {
     combos {
