@@ -89,9 +89,9 @@
 &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans
 &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &bootloader  &trans
+&trans  &trans  &trans  &trans  &studio_unlock  &trans
 &trans  &trans  &trans  &trans  &trans
-&trans          &trans          &trans       &trans
+&trans          &trans          &trans          &trans
             >;
         };
     };
