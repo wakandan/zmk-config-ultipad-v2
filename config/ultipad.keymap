@@ -74,12 +74,12 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans
-&trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans
-&trans          &trans          &trans  &trans
+&trans        &trans          &trans  &trans  &trans
+&msc SCRL_UP  &msc SCRL_DOWN  &trans  &trans
+&trans        &trans          &trans
+&trans        &trans          &trans  &trans  &trans  &trans
+&trans        &trans          &trans  &trans  &trans
+&trans                        &trans          &trans  &trans
             >;
 
             sensor-bindings =
