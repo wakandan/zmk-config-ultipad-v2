@@ -23,6 +23,7 @@
             bindings = <&msc>, <&msc>;
         };
     };
+
     combos {
         compatible = "zmk,combos";
 
@@ -79,8 +80,9 @@
 &trans  &trans  &trans  &trans  &trans
 &trans          &trans          &trans  &trans
             >;
+
             sensor-bindings =
-                <&rot_scroll SCRL_UP SCRL_DOWN>,
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
                 <&inc_dec_kp C_NEXT C_PREVIOUS>;
         };
 
@@ -93,6 +95,7 @@
 &trans  &trans  &trans  &trans  &trans
 &trans          &trans          &trans  &trans
             >;
+
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp C_NEXT C_PREVIOUS>;
@@ -107,6 +110,7 @@
 &trans  &trans  &trans  &trans  &trans
 &trans          &trans          &trans          &trans
             >;
+
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp C_NEXT C_PREVIOUS>;
