@@ -21,6 +21,7 @@
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
+            tap-ms = <40>;
         };
     };
 
@@ -82,7 +83,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
+                <&rot_scroll SCRL_UP SCRL_DOWN>,
                 <&inc_dec_kp C_NEXT C_PREVIOUS>;
         };
 
